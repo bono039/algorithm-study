@@ -1,5 +1,3 @@
-import math
-
 n, l = map(int,input().split())
 pipes = list(map(int,input().split()))
 pipes.sort()
