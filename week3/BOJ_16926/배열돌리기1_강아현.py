@@ -7,7 +7,6 @@ for _ in range(n):
 
 def rotate(board, n, m):
     for i in range(min(n,m)//2): # 회전할 수 있는 배열의 가장 바깥 배열부터 가장 안쪽 배열까지
-        #temp = board[i][i] # 상단 왼쪽 모서리 원소를 빼둔다.
 
         top = deque(board[i][i:m-i]) # 위쪽 배열을 왼쪽으로 회전
         top.rotate(-1)
@@ -35,8 +34,7 @@ def rotate(board, n, m):
         left = list(left)
         for j in range(1,len(left)):
             board[j+i][i] = left[j]
-        # 빼둔 모서리 원소를 뺐을 때의 위치 바로 아래에 넣는다.
-        #board[i+1][i] = temp
+        
 
     return board
 for _ in range(r):
