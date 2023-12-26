@@ -1,6 +1,15 @@
 import java.util.*;
 import java.io.*;
 
+class Pair {
+    int start, end; //괄호의 시작과 끝 index
+
+    public Pair(int start, int end) {
+        this.start = start;
+        this.end = end;
+    }
+}
+
 public class 괄호제거_한의정 {
     static char[] ch;
 
@@ -11,7 +20,7 @@ public class 괄호제거_한의정 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        ch = br.readLine().toCharArray();
+        ch = br.readLine().toCharArray(); //읽은 문자열을 char형 배열로 바꾼다
 
         // 1. 괄호 쌍 구하기
         Stack<Integer> stack = new Stack<>();
@@ -26,7 +35,7 @@ public class 괄호제거_한의정 {
         }
 
         // 2. 괄호 존재여부 모든 조합 구하기
-        check = new boolean[ch.length];
+        check = new boolean[ch.length]; //ex) 처음에 다 false
         comb(0);
 
         // 출력하기
@@ -37,15 +46,15 @@ public class 괄호제거_한의정 {
     }
 
     private static void comb(int depth) {
-        if(depth == list.size()) {
+        if(depth == list.size()) { // list.size = 괄호 쌍의 갯수
             boolean b = false;
 
             StringBuilder sb = new StringBuilder();
             for(int i = 0 ; i < ch.length ; i++) {
-                if(!check[i]) {
+                if(!check[i]) {// check[i] = false면
                     sb.append(ch[i]);
                 }
-                else {
+                else {//check[i] = true면 즉, 괄호가 제거 되어있는게 있다면
                     b = true;
                 }
             }
@@ -69,11 +78,3 @@ public class 괄호제거_한의정 {
     }
 }
 
-class Pair {
-    int start, end;
-
-    public Pair(int start, int end) {
-        this.start = start;
-        this.end = end;
-    }
-}
