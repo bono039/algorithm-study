@@ -18,12 +18,14 @@
 >
 >> **Block 2**
 >>
->> ![image](https://github.com/ahyun39/CodingTest/assets/70644095/7ab7f55b-4c56-43e3-bea6-e07c0f669114)
+>> <img src="https://github.com/ahyun39/CodingTest/assets/70644095/7ab7f55b-4c56-43e3-bea6-e07c0f669114" width="200" height="200"/>
+>> 
 >> - 첫번째 사각형을 기준
 >
 >> **Block 3**
 >>
->> ![image](https://github.com/ahyun39/CodingTest/assets/70644095/a101dea9-1820-45ad-a43d-eda06cfcb032)
+>> <img src="https://github.com/ahyun39/CodingTest/assets/70644095/a101dea9-1820-45ad-a43d-eda06cfcb032" width="250" height="400"/>
+>> 
 >> - `가로1/가로3`의 경우, 아래쪽 제일 `왼쪽` 사각형이 기준
 >> - `가로2/가로4`의 경우, 위쪽 제일 `왼쪽` 사각형이 기준
 >> - `세로1/세로3`의 경우, 오른쪽 제일 `위쪽` 사각형이 기준
@@ -31,7 +33,8 @@
 >
 >> **Block 4**
 >>
->> ![image](https://github.com/ahyun39/CodingTest/assets/70644095/b94f81d8-d95c-4b6c-9006-2129384cfa6b)
+>> <img src="https://github.com/ahyun39/CodingTest/assets/70644095/b94f81d8-d95c-4b6c-9006-2129384cfa6b" width="300" height="300"/>
+>> 
 >> - `가로1`의 경우, 아래쪽 제일 `왼쪽` 사각형이 기준
 >> - `가로2`의 경우, 위쪽 제일 `왼쪽` 사각형이 기준
 >> - `세로1`의 경우, 오른쪽 제일 `위쪽` 사각형이 기준
@@ -39,7 +42,8 @@
 >
 >> **Block 5**
 >>
->> ![image](https://github.com/ahyun39/CodingTest/assets/70644095/8c8e4dd4-e98d-401b-a6ff-91530eb18ede)
+>> <img src="https://github.com/ahyun39/CodingTest/assets/70644095/8c8e4dd4-e98d-401b-a6ff-91530eb18ede" width="300" height="300"/>
+>> 
 >> - `가로1`의 경우, 아래쪽 제일 `왼쪽` 사각형이 기준
 >> - `가로2`의 경우, 위쪽 제일 `왼쪽` 사각형이 기준
 >> - `세로1`의 경우, 오른쪽 제일 `위쪽` 사각형이 기준
