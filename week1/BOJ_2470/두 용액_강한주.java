@@ -42,6 +42,16 @@ public class 두용액_강한주 {
 
         System.out.println(ans1+" "+ans2);
 
+//아래처럼 생각해서 틀림, 이분탐색을 더 연습해야겠다
+//        if (start > 0 && end > 0) {//산성이면
+//            end = list.get(1);
+//            System.out.println(start + " " + end);
+//        } else if (start < 0 && end < 0) {//알칼리성이면
+//            start = list.get(list.size() - 2);
+//            System.out.println(start + " " + end);
+//        } else {
+//            System.out.println(start + " " + end);
+//        }
 
     }
 
