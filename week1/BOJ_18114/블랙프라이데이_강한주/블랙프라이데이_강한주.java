@@ -1,3 +1,5 @@
+package 블랙프라이데이_강한주;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
