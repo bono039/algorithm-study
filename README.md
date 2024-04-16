@@ -119,13 +119,7 @@ git commit -m "[BOJ] 2548_대표자연수 / 실버3 / 10분 / O(X) "
 | 16주차 (4.8~4.14)            | [섬의 개수](https://www.acmicpc.net/problem/4963) | [섬의 개수](https://www.acmicpc.net/problem/4963) | [현수막](https://www.acmicpc.net/problem/14716) | [공주님을 구해라!](https://www.acmicpc.net/problem/17836) | [일루미네이션](https://www.acmicpc.net/problem/5547) | [로봇](https://www.acmicpc.net/problem/1726) | [모래성](https://www.acmicpc.net/problem/10711)                                     |
 | 17주차 (4.15~4.21)           | [로프](https://www.acmicpc.net/problem/2217) | [주유소](https://www.acmicpc.net/problem/13305) | [뒤집기 2](https://www.acmicpc.net/problem/1455) | [강의실 배정](https://www.acmicpc.net/problem/11000) | [우체국](https://www.acmicpc.net/problem/2141) | [택배](https://www.acmicpc.net/problem/8980) | -                                                                                |
 <br/>
-<!--# 📚 블로깅 및 노션 정리
 
-//|          | 블로그 / 노션 | 알고리즘                    | 작성자   |
-//| -------- | ------------- | --------------------------- | -------- |
-//| 1  | ...  | `...` | ... |-->
-
-<br/>
 
 ## 🙌 참고 레퍼런스
 
